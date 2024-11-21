@@ -1,2 +1,4 @@
 # QRT_Data_Challenge
 QRT Data Challenge 2020: Stock prediction
+
+This project aimed to predict stock market behavior by analyzing returns and volumes using machine learning and statistical methods. Key steps included data preprocessing to address missing values and prevent temporal bias, feature engineering (e.g., cumulative returns, volatility, EMA), and clustering stocks dynamically to capture patterns beyond static classifications. A Random Forest model was selected for its ability to handle non-linear relationships, with hyperparameters tuned to balance complexity and overfitting. The final model achieved 51.75% accuracy, ranking 133rd out of 463 participants. Future improvements include exploring fixed-effects models and Panel Tree (P-Tree) approaches for enhanced robustness and interpretability.
